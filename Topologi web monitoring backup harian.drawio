@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T13:47:38.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.44" etag="tbOIy4359z1-KXntnBFz" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-25T00:42:36.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TNzXCLkCnERMGDlrtr23" version="21.0.10" type="github">
   <diagram name="Page-1" id="0E3Kw_RimV55Skzm7RbZ">
-    <mxGraphModel dx="1805" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1615" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,9 +15,6 @@
         </mxCell>
         <mxCell id="iM8VDKJwrgfoEsLlG_Np-5" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/web_server.svg;" parent="1" vertex="1">
           <mxGeometry x="470" y="360" width="120" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="iM8VDKJwrgfoEsLlG_Np-6" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="20" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="iM8VDKJwrgfoEsLlG_Np-7" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;App Server&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="850" y="200" width="140" height="40" as="geometry" />
@@ -58,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jGflWgv3lSx-wSXQby-S-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="610" y="360" width="140" height="40" as="geometry" />
+          <mxGeometry x="730" y="120" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AwyXEWw16TiDAjHhJQ-5-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -66,20 +63,26 @@
             <mxPoint x="280" y="434.44" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6cipVELPrP1QCe_pAajm-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="6cipVELPrP1QCe_pAajm-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="385" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="6cipVELPrP1QCe_pAajm-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="750" y="100" as="sourcePoint" />
-            <mxPoint x="280" y="400" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="390" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6cipVELPrP1QCe_pAajm-3" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="810" y="290" width="100" height="100" as="geometry" />
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="670" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6cipVELPrP1QCe_pAajm-4" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="580" width="100" height="100" as="geometry" />
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-4" value="Cara kerja web monitoring backup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="530" width="450" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-5" value="1. Pengecekan file backup pada tiap app server" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KjsujYXIpW7fQtc8lM0x-4">
+          <mxGeometry y="30" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-6" value="2. Hasil pengecekan dikirim ke server web dengan scp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KjsujYXIpW7fQtc8lM0x-4">
+          <mxGeometry y="60" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-7" value="3. File hasil pengecekan selanjutnya diinput ke database dan di visualisasikan ke web" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KjsujYXIpW7fQtc8lM0x-4">
+          <mxGeometry y="90" width="450" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
