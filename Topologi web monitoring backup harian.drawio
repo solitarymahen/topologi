@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-25T00:42:36.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="TNzXCLkCnERMGDlrtr23" version="21.0.10" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T03:30:56.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="-ZcEyKRdHXDtIsKafbGZ" version="21.1.2" type="github">
   <diagram name="Page-1" id="0E3Kw_RimV55Skzm7RbZ">
-    <mxGraphModel dx="1615" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1500" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="859.2" y="780" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iM8VDKJwrgfoEsLlG_Np-13" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" parent="1" vertex="1">
-          <mxGeometry x="490" y="290" width="59.51" height="48.8" as="geometry" />
+          <mxGeometry x="480" y="280" width="79.51" height="65.2" as="geometry" />
         </mxCell>
         <mxCell id="iM8VDKJwrgfoEsLlG_Np-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -64,25 +64,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6cipVELPrP1QCe_pAajm-1" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.azure_website;pointerEvents=1;" parent="1" vertex="1">
-          <mxGeometry x="140" y="385" width="100" height="100" as="geometry" />
+          <mxGeometry x="170" y="375" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="KjsujYXIpW7fQtc8lM0x-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="390" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KjsujYXIpW7fQtc8lM0x-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-2" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;scp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="730" y="670" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="KjsujYXIpW7fQtc8lM0x-4" value="Cara kerja web monitoring backup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="530" width="450" height="120" as="geometry" />
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-4" value="Cara kerja web monitoring backup" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="530" width="500" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KjsujYXIpW7fQtc8lM0x-5" value="1. Pengecekan file backup pada tiap app server" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KjsujYXIpW7fQtc8lM0x-4">
-          <mxGeometry y="30" width="450" height="30" as="geometry" />
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-5" value="1. Pengecekan file backup pada tiap app server" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KjsujYXIpW7fQtc8lM0x-4" vertex="1">
+          <mxGeometry y="30" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KjsujYXIpW7fQtc8lM0x-6" value="2. Hasil pengecekan dikirim ke server web dengan scp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KjsujYXIpW7fQtc8lM0x-4">
-          <mxGeometry y="60" width="450" height="30" as="geometry" />
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-6" value="2. Hasil pengecekan dikirim ke server web dengan scp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KjsujYXIpW7fQtc8lM0x-4" vertex="1">
+          <mxGeometry y="60" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KjsujYXIpW7fQtc8lM0x-7" value="3. File hasil pengecekan selanjutnya diinput ke database dan di visualisasikan ke web" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="KjsujYXIpW7fQtc8lM0x-4">
-          <mxGeometry y="90" width="450" height="30" as="geometry" />
+        <mxCell id="KjsujYXIpW7fQtc8lM0x-7" value="3. File hasil pengecekan selanjutnya diinput ke database dan di visualisasikan ke web" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="KjsujYXIpW7fQtc8lM0x-4" vertex="1">
+          <mxGeometry y="90" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GSXaywZ3phH8YTJJJZ-V-1" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#2E27AD;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mariadb_instance;" vertex="1" parent="1">
+          <mxGeometry x="470" y="211.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GSXaywZ3phH8YTJJJZ-V-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap-vol-3/16/filetype-php-128.png" vertex="1" parent="1">
+          <mxGeometry x="530" y="210" width="51.5" height="51.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GSXaywZ3phH8YTJJJZ-V-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;http://10.14.152.86/monitoring-backup&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="89" y="310" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
